@@ -16,13 +16,13 @@ function Login() {
               <Form.Label>
                 E-Mail <span className="text-danger">*</span>
               </Form.Label>
-              <Form.Control type="email" placeholder="babymonster@yg.co.id" required />
+              <Form.Control type="email" placeholder="" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="passwordLogin">
               <Form.Label>
                 Kata Sandi <span className="text-danger">*</span>
               </Form.Label>
-              <Form.Control type="password" placeholder="**********" required />
+              <Form.Control type="password" placeholder="" />
             </Form.Group>
             <div className="mb-3 text-end">
               <a href="#" className="text-decoration-none">
@@ -30,7 +30,7 @@ function Login() {
               </a>
             </div>
             <div className="d-grid gap-2 mb-3">
-              <Button variant="primary" type="submit">
+              <Button variant="primary" href="/beranda">
                 Masuk
               </Button>
               <Button variant="outline-secondary" href="/register">
